@@ -1,12 +1,21 @@
 body {
+<<<<<<< HEAD
   color: #F2EEDA;
   font-family: futura, Helvetica, Arial, sans-serif;
   background-image: url("../img/footer_lodyas.png");
   background-repeat: repeat; 
+=======
+  color: white;
+  font-family: helvetica, arial, sans;
+  background: #414345;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+>>>>>>> 36c432c0a36ac179ac8fe9b213ccbbdf7d6e96cb
   overflow-x: hidden;
 }
 
 .title {
+<<<<<<< HEAD
   color: #F5F3E4;
   font-size: 82px;
   text-align: center;
@@ -49,6 +58,65 @@ body {
 
 .content-computerskills {
   padding: 20px 20px 20px 20px;   
+=======
+    font-size: 50px;
+    font-weight: 200;
+    height: 100%;
+    text-align: center;
+    line-height: 250px;
+}
+
+.about {
+  padding: 50px 30px 50px 80px;
+  width: 100%;
+  background: black;
+}
+
+.work-wrapper {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+    
+}
+
+
+.aon {
+    background: #232526;
+    padding: 20px 20px 20px 20px;
+}
+
+.closer {
+  background: #414345;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.processor {
+  background: #232526;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.computerskills {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;    
+}
+
+.education {
+    background-image: url("img/grads.jpg");
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;    
+>>>>>>> 36c432c0a36ac179ac8fe9b213ccbbdf7d6e96cb
 }
 
 .extendfull, .extendleft
@@ -62,6 +130,7 @@ body {
 	padding-right: 3000px;
 	margin-right: -3000px;
 }
+<<<<<<< HEAD
 
 hr.workstyle { 
   border: 0; 
@@ -71,3 +140,5 @@ hr.workstyle {
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
+=======
+>>>>>>> 36c432c0a36ac179ac8fe9b213ccbbdf7d6e96cb
