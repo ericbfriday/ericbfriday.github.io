@@ -1,6 +1,6 @@
 body {
   color: #f9fafa;
-  font-family: "futura", Helvetica, Arial, sans-serif;
+  font-family: Lato, "futura", Helvetica, Arial, sans-serif;
   background-color: #A0B3B6;
 }
 
@@ -25,7 +25,8 @@ body {
 }
 
 .wrapper {
-  padding: 0px 30px 0px 80px;
+  padding-right: 30px;
+  padding-left: 80px;
   margin: 0px 0px 0px 0px;
 }
 
@@ -34,72 +35,29 @@ body {
   color: #F5F3E4;
   text-shadow: 2px 2px #000000;
   text-align: left;
-  padding-top: 60px;
-  padding-right: 30px;
-  padding-bottom: 60px;
-  padding-left: 80px;  
+  padding: 60px 30px 60px 80px;
   border-radius: 25px;
 }
 
-.content-aon {
-/*
-  padding: 20px 20px 20px 20px;
-  */
-}
-
-.content-closer {
-/*
-  padding: 20px 20px 20px 20px;
-  */
-}
-
-.content-processor {
-/*
-  padding: 20px 20px 20px 20px;
-  */
+#work {
+  padding:60px 30px 60px 80px;
 }
 
 .content-computerskills {
-/*
   padding: 20px 20px 20px 20px;
-  */ 
 }
-
 
 .footer {
   padding: 50px 30px 50px 80px;
   background: #758095;
   border-radius: 25px;
-
-/* Can't get this to work yet.
-  column-count: 3;
-  column-gap: 30px;
-  column-rule-style: solid;
-  column-rule-color: lightblue;
-*/
 }
 
 .workstyle { 
   border: 0; 
   height: 1px; 
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(117, 128, 149, 1), rgba(0, 0, 0, 0));
 }
-
-
-/*Navbar class is essentially the entire navigation bar. 
-Navlist class is going to be the list items within the nav bar */
-
-/*
-.navbar{ 
-  background: #a0a8b6;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-align: center;
-  height: 5vh;
-    
-}
-*/
 
 .navbar {
   overflow: hidden;
@@ -121,15 +79,12 @@ Navlist class is going to be the list items within the nav bar */
   font-size: 17px;
 }
 
-/* these are broken  
-.topnav a:hover {
-  background-color: #ddd;
+.navbar a:hover {
+  background-color: #f4f6ed;
   color: black;
 }
 
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+#email {
+  text-decoration: none;
+  color: inherit;
 }
-
-*/
