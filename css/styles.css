@@ -1,13 +1,38 @@
 body {
-  color: #f9fafa;
+  color: #191F2F;
   font-family: Lato, "futura", Helvetica, Arial, sans-serif;
-  background-color: #A0B3B6;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #191F2F;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #f2f2f2;
+  color: #181F2F;
 }
 
 .title {
   background-image: url(../img/forest.JPG);
   background-size: cover;
-  color: #f4f6ed;
+  color: #f2f2f2;
   text-align: center;
   vertical-align: middle;
   height: 100vh;
@@ -30,7 +55,7 @@ body {
 
 .content-education {
   background-image: url("../img/grads.jpg");
-  color: #F5F3E4;
+  color: #f2f2f2;
   text-shadow: 2px 2px #000000;
   text-align: left;
   padding: 60px 30px 60px 80px;
@@ -46,8 +71,9 @@ body {
 }
 
 .footer {
+  color: #f2f2f2;
   padding: 50px 30px 50px 80px;
-  background: #758095;
+  background: #191F2F;
   border-radius: 25px;
 }
 
@@ -55,31 +81,6 @@ body {
   border: 0; 
   height: 1px; 
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(117, 128, 149, 1), rgba(0, 0, 0, 0));
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #758095;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px 15px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background-color: #f4f6ed;
-  color: black;
 }
 
 #email {
