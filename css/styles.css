@@ -8,7 +8,6 @@ body {
   background-image: url(../img/forest.JPG);
   background-size: cover;
   color: #f4f6ed;
-  font-size: 82px;
   text-align: center;
   vertical-align: middle;
   height: 100vh;
@@ -21,7 +20,6 @@ body {
 .content-about {
   padding-top: 60px;
   padding-bottom: 60px;
-  text-indent: 1em;
 }
 
 .wrapper {
